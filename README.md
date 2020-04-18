@@ -2,7 +2,7 @@
 My portfolio site
 
 <!--HEADER-->
-The header of this webpage contains the bootstrap nav and a text logo
+The header of this webpage contains the nav and a text logo
 
 <!--SECTIONS-->
 There are three(3) main sections on this html document: 
