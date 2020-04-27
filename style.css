@@ -1,0 +1,280 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.navbar-brand{
+    font-size: 1.6rem !important;
+    font-family: 'Pacifico', cursive;
+}
+#nav-bar{
+    background-color: #fff;
+}
+.navbar-brand span{
+	color: #ea213b;
+}
+.nav-link{
+    margin-right: 1.9rem;
+}
+.nav-link:hover{
+	border-bottom: 2px solid #ea213b;
+}
+.active-link{
+	border-bottom: 2px solid #ea213b;
+}
+#homepage{
+	background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(https://i.pinimg.com/originals/e1/e8/8e/e1e88e69109c22068694d3894e649370.jpg);
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+	background-position: center;
+	height: 100vh;
+}
+.home-details{
+	text-align: center;
+	padding-top: 12rem;
+}
+.home-details img{
+	height: 7.5rem;
+	width: 7.5rem;
+	border-radius: 50%;
+}
+.name{
+	font-size: 3.75rem;
+	color: #999;
+	font-weight: bold;
+}
+.home-details p span{
+	color: #ea213b;
+}
+.desc{
+	font-size: 2.5rem;
+	color: #999;
+	padding-bottom: 1.9rem;
+	font-family: casteller;
+}
+.home-details a{
+	color: white;
+	background-color: #ea213b;
+	padding: 0.63rem 2.2rem;
+	border-radius: 1.25rem;
+	font-size: 1.1rem;
+	font-weight: 500;
+	letter-spacing: 1.2px;
+}
+.home-details a:hover{
+	text-decoration: none;
+	color: white;
+	background-color: #ca2f2f;		
+}
+#social-media{
+	text-align: center;
+	padding: 6.25rem;
+	background: #fafafa;
+}
+#social-media h3{
+	color: #555;
+	font-size: 2.5rem;
+	font-weight: bold;
+	padding-bottom: 0.63rem;
+}
+.fab{
+  padding: 0.63rem;
+  font-size: 1.25rem;
+  text-decoration: none;
+  margin: 0.31rem 0.13rem;
+  border-radius: 50%;
+  margin-right: 0.63rem;
+}
+.fab:hover{
+  opacity: 0.6;
+}
+.fa-instagram{
+   background: #e4405f;
+   color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin-in {
+  background: #007bb5;
+  color: white;
+}
+.fa-github{
+  background: purple;
+  color: white;
+}
+.fa-quora{
+  background: #b92b27;
+  color: white;
+}
+#about{
+	padding-top: 0.63rem;
+	padding-bottom: 3.13rem;
+}
+#about h1{
+	text-align: center;
+	color: #ea213b;
+	font-family: 'Times New Roman';
+}
+#about h1::after{
+	content: '';
+	display: block;
+	background: #ea213b;
+	height: 2px;
+	width: 100px;
+	margin: 20px auto 5px;
+	margin-bottom: 50px;
+}
+#about .container{
+	margin: 3.13rem auto;
+}
+.about-col{
+	margin-top: 3.13rem;
+}
+.profile{
+	padding: 4.38rem 0.63rem 1.25rem 0.63rem;
+	background-color: #ea213b;
+}
+.profile:hover{
+	box-shadow: 0 0 15px 5px rgba(0,0,0,0.4);
+	cursor: pointer;
+	transition: 0.5s;
+}
+.profile > p{
+	color: #fff;
+	font-size: 1rem;
+	padding-top: 1.25rem;
+	padding-bottom: 1.25rem;
+}
+.profile img{
+	width: 7.5rem;
+	height: 7.5rem;
+	border-radius: 50%;
+	top: -3.75rem;
+	position: absolute;
+	left: calc(50% - 60px);
+	border: 7px solid #fff;
+}
+.skills-bar > p{
+	margin-bottom: 1.25rem;
+	font-weight: 600;
+	font-size: 1.13rem;
+}
+.progress{
+	border-radius: 0.94rem !important;
+	margin-bottom: 0.94rem;
+	margin-top: 0.19rem;
+}
+.progress-bar{
+	border-radius: 0.94rem;
+	background-color: #ea213b !important;
+}
+.contact-form{
+	background-color: #fafafa;
+	padding: 3.13rem;
+	margin-bottom: 1.88rem;
+}
+.form-group{
+	width: 60%;
+}
+.form-control{
+	outline: none;
+}
+.contact-form h2{
+    font-family: 'Pacifico', cursive !important;
+}
+.contact-form button{
+	padding: 0.63rem 1.88rem;
+}
+.footer{
+	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(https://i.pinimg.com/originals/e1/e8/8e/e1e88e69109c22068694d3894e649370.jpg);
+	/* background-color: #2d314d; */
+	color: #fff;
+	padding-top: 0.63rem;
+}
+.lg{
+	padding-left: 3.13rem !important;
+	padding-top: 1.25rem !important;
+}
+.lg h5{
+    font-family: 'Pacifico', cursive;
+    font-size: 1.88rem;
+}
+.lg span{
+	color: #ea213b;
+}
+.fas, .far{
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+	opacity: 0.5;
+}
+.sos-med{
+	margin-left: -9.375rem !important;
+	padding-top: 3.13rem !important;
+}
+.list-unstyled{
+    margin-left: 2.5rem;
+}
+.list-unstyled span{
+	font-family: georgia;
+	font-size: 0.88rem;
+	color: #efefef;
+}
+@media screen and (max-width: 768px) {
+    #homepage {
+      height: 110vh; 
+    }
+	.home-details p{
+		font-size: 40px;
+	}
+    .form-group {
+      width: 100%;
+    }
+  
+    .sos-med{
+    margin-left: 30px !important;
+    margin-top: -50px !important;
+    padding-bottom: 20px;
+    }
+  
+    #about h1 {
+      padding-top: 100px; 
+	}
+	.about-col{
+		margin-bottom: 50px;
+	}
+  
+    .lg h5{
+		margin-right: 20px !important;
+	}
+	.footer-copyright{
+		margin-left: 60px !important;
+	}
+	.list-unstyled{
+		text-align: left !important;
+		margin-left: 120px;
+	}
+	.form-group{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 375px){
+	#homepage{
+		height: 90vh;
+	}
+	.lg h5{
+		margin-right: 20px !important;
+	}
+	.footer-copyright{
+		margin-left: 0 !important;
+	}
+	.list-unstyled{
+		text-align: left !important;
+		margin-left: 70px;
+	}
+	.form-group{
+		width: 100%;
+	}
+}
