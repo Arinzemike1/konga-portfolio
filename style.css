@@ -6,7 +6,7 @@
     font-size: 1.6rem !important;
     font-family: 'Pacifico', cursive;
 }
-#nav-bar{
+.navbar{
     background-color: #fff;
 }
 .navbar-brand span{
@@ -21,7 +21,7 @@
 .active-link{
 	border-bottom: 2px solid #ea213b;
 }
-#homepage{
+.homepage{
 	background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(https://i.pinimg.com/originals/e1/e8/8e/e1e88e69109c22068694d3894e649370.jpg);
 	background-repeat: no-repeat;
     background-size: cover;
@@ -66,12 +66,12 @@
 	color: white;
 	background-color: #ca2f2f;		
 }
-#social-media{
+.socialmedia{
 	text-align: center;
 	padding: 6.25rem;
 	background: #fafafa;
 }
-#social-media h3{
+.socialmedia h3{
 	color: #555;
 	font-size: 2.5rem;
 	font-weight: bold;
@@ -108,16 +108,16 @@
   background: #b92b27;
   color: white;
 }
-#about{
+.about{
 	padding-top: 0.63rem;
 	padding-bottom: 3.13rem;
 }
-#about h1{
+.about h1{
 	text-align: center;
 	color: #ea213b;
 	font-family: 'Times New Roman';
 }
-#about h1::after{
+.about h1::after{
 	content: '';
 	display: block;
 	background: #ea213b;
@@ -126,7 +126,7 @@
 	margin: 20px auto 5px;
 	margin-bottom: 50px;
 }
-#about .container{
+.about .container{
 	margin: 3.13rem auto;
 }
 .about-col{
@@ -222,7 +222,7 @@
 	color: #efefef;
 }
 @media screen and (max-width: 768px) {
-    #homepage {
+    .homepage {
       height: 110vh; 
     }
 	.home-details p{
@@ -238,7 +238,7 @@
     padding-bottom: 20px;
     }
   
-    #about h1 {
+    .about h1 {
       padding-top: 100px; 
 	}
 	.about-col{
@@ -261,7 +261,7 @@
 }
 
 @media screen and (max-width: 375px){
-	#homepage{
+	.homepage{
 		height: 90vh;
 	}
 	.lg h5{
