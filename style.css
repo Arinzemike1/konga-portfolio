@@ -15,10 +15,10 @@
 .nav-link {
   margin-right: 1.9rem; }
   .nav-link:hover {
-    border-bottom: 2px solid #ea213b !important; }
+    border-bottom: 0.125rem solid #ea213b !important; }
 
 .active-link {
-  border-bottom: 2px solid #ea213b !important; }
+  border-bottom: 0.125rem solid #ea213b !important; }
 
 .homepage {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://i.pinimg.com/originals/e1/e8/8e/e1e88e69109c22068694d3894e649370.jpg);
@@ -45,7 +45,7 @@
     border-radius: 1.25rem;
     font-size: 1.1rem;
     font-weight: 500;
-    letter-spacing: 1.2px; }
+    letter-spacing: 0.075rem; }
     .home-details a:hover {
       text-decoration: none;
       color: white;
