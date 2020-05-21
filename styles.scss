@@ -1,0 +1,342 @@
+@import './colors.scss';
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.navbar-brand{
+	font-size: 1.6rem;
+	font-weight: 500;
+    font-family: 'Pacifico', cursive;
+
+    span{
+        color: $red;
+    }
+}
+
+.navbar{
+    background-color: #fff;
+}
+
+.nav-link{
+    margin-right: 1.9rem;
+
+    &:hover{
+        border-bottom: 0.125rem solid $red;
+    }
+}
+
+.active-link{
+	border-bottom: 0.125rem solid $red;
+}
+
+.homepage{
+	background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(https://i.pinimg.com/originals/e1/e8/8e/e1e88e69109c22068694d3894e649370.jpg);
+	/* background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)), url(images/bg-cover.jpg); */
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+	background-position: center;
+	height: 100vh;
+}
+
+.home-details{
+	text-align: center;
+    padding-top: 12rem;
+    
+    img{
+        height: 7.5rem;
+        width: 7.5rem;
+        border-radius: 50%;
+    }
+    p span{
+        color: $red;
+    }
+    a{
+        color: white;
+        background-color: $red;
+        padding: 0.63rem 2.2rem;
+        border-radius: 1.25rem;
+        font-size: 1.1rem;
+        font-weight: 500;
+        letter-spacing: 0.075rem;
+
+        &:hover{
+            text-decoration: none;
+            color: white;
+            background-color: #ca2f2f;		
+        }
+    }
+}
+
+.name{
+	font-size: 3.75rem;
+	color: #999;
+	font-weight: bold;
+}
+
+.desc{
+	font-size: 2.5rem;
+	color: #999;
+	padding-bottom: 1.9rem;
+	font-family: casteller;
+}
+
+.socialmedia{
+	text-align: center;
+	padding: 6.25rem;
+    background: #fafafa;
+    
+    h3{
+        color: #555;
+        font-size: 2.5rem;
+        font-weight: bold;
+        padding-bottom: 0.63rem;
+    }
+}
+
+%fab{
+    padding: 0.63rem;
+    font-size: 1.25rem;
+    text-decoration: none;
+    margin: 0.31rem 0.13rem;
+    border-radius: 50%;
+    margin-right: 0.63rem;
+
+    &:hover{
+        opacity: 0.6;
+    }
+}
+
+.fa-instagram{
+    @extend %fab;
+    background: #e4405f;
+    color: white;
+}
+
+.fa-twitter {
+    @extend %fab;
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin-in {
+    @extend %fab;
+    background: #007bb5;
+    color: white;
+}
+
+.fa-github{
+    @extend %fab;
+    background: purple;
+    color: white;
+}
+
+.fa-quora{
+    @extend %fab;
+    background: #b92b27;
+    color: white;
+}
+
+.about{
+	padding-top: 0.63rem;
+    padding-bottom: 3.13rem;
+    
+    h1{
+        text-align: center;
+        color: $red;
+        font-family: 'Times New Roman';
+
+        &::after{
+            content: '';
+            display: block;
+            background: $red;
+            height: 0.125rem;
+            width: 6.25rem;
+            margin: 1.25rem auto 0.313rem;
+            margin-bottom: 3.125rem;
+        }
+    }
+}
+
+.about .container{
+	margin: 3.13rem auto;
+}
+
+.about-col{
+	margin-top: 3.13rem;
+}
+
+.profile{
+	padding: 4.38rem 0.63rem 1.25rem 0.63rem;
+    background-color: $red;
+    
+    &:hover{
+        box-shadow: 0 0 15px 5px rgba(0,0,0,0.4);
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    p{
+        color: #fff;
+        font-size: 1rem;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+    }
+    img{
+        width: 7.5rem;
+        height: 7.5rem;
+        border-radius: 50%;
+        top: -3.75rem;
+        position: absolute;
+        left: calc(50% - 60px);
+        border: 7px solid #fff;
+    }
+}
+
+.skills-bar > p{
+	margin-bottom: 1.25rem;
+	font-weight: 600;
+	font-size: 1.13rem;
+}
+
+.progress{
+	border-radius: 0.94rem;
+	margin-bottom: 0.94rem;
+	margin-top: 0.19rem;
+}
+
+.progress-bar{
+	border-radius: 0.94rem;
+	background-color: $red;
+}
+
+.contact-form{
+	background-color: #fafafa;
+	padding: 3.13rem;
+    margin-bottom: 1.88rem;
+    
+    h2{
+        font-family: 'Pacifico', cursive;
+    }
+    button{
+        padding: 0.63rem 1.88rem;
+    }
+}
+
+.form-group{
+	width: 60%;
+}
+
+.form-control{
+	outline: none;
+}
+
+.footer{
+	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(https://i.pinimg.com/originals/e1/e8/8e/e1e88e69109c22068694d3894e649370.jpg);
+	/* background-color: #2d314d; */
+	color: #fff;
+	padding-top: 0.63rem;
+}
+
+.footer-logo{
+	padding-left: 3.13rem;
+    padding-top: 1.25rem;
+    
+    h5{
+        font-family: 'Pacifico', cursive;
+        font-size: 1.88rem;
+    }
+    span{
+        color: $red;
+    }
+}
+
+.fas, .far{
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+	opacity: 0.5;
+}
+
+.sos-med{
+	margin-left: -9.375rem;
+	padding-top: 3.13rem;
+}
+
+.list-unstyled{
+    margin-left: 2.5rem;
+
+    span{
+        font-family: georgia;
+        font-size: 0.88rem;
+        color: #efefef;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .homepage {
+      height: 110vh; 
+	}
+	
+	.home-details p{
+		font-size: 40px;
+	}
+
+    .form-group {
+      width: 100%;
+    }
+  
+    .sos-med{
+    margin-left: 30px;
+    margin-top: -50px;
+    padding-bottom: 20px;
+    }
+  
+    .about h1 {
+      padding-top: 100px; 
+	}
+
+	.about-col{
+		margin-bottom: 50px;
+	}
+  
+    .footer-logo h5{
+		margin-right: 20px;
+	}
+
+	.footer-copyright{
+		margin-left: 60px;
+	}
+
+	.list-unstyled{
+		text-align: left;
+		margin-left: 120px;
+	}
+
+	.form-group{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 375px){
+	.homepage{
+		height: 90vh;
+	}
+
+	.footer-logo h5{
+		margin-right: 20px;
+	}
+
+	.footer-copyright{
+		margin-left: 0;
+	}
+
+	.list-unstyled{
+		text-align: left;
+		margin-left: 70px;
+	}
+
+	.form-group{
+		width: 100%;
+	}
+}
